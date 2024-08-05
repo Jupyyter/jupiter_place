@@ -1,4 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
+import phone from "../public/imgs/phone.jpg"
+import mail from "../public/imgs/mail.jpg"
+import github from "../public/imgs/github.jpg"
 
 
 const ContactItem = ({ icon, text, link }: { icon: string, text: string, link?: string }) => (
@@ -27,7 +30,7 @@ export default function Contact() {
     <div className="flex-grow flex items-center justify-center">
       <main className="text-center p-4">
         <h1 className="text-4xl font-bold mb-4">contacts</h1>
-        <ContactItem icon="../../public/imgs/phone.jpg" text="my phone number: 0765823655" />
+        <ContactItem icon="../../public/imgs/phone.jpg" text="my phonee number: 0765823655" />
         <ContactItem icon="../../public/imgs/mail.jpg" text="my email: raducea.matei2005@gmail.com" />
         <ContactItem icon="../../public/imgs/github.jpg" text="my github repositories" link="https://github.com/Jupyyter?tab=repositories" />
       </main>
