@@ -30,7 +30,7 @@ export default function Contact() {
     <div className="flex-grow flex items-center justify-center">
       <main className="text-center p-4">
         <h1 className="text-4xl font-bold mb-4">contacts</h1>
-        <ContactItem icon={phone} text="my phonee number: 0765823655" />
+        <ContactItem icon={phone} text="my phonee numberrr: 0765823655" />
         <ContactItem icon={mail} text="my email: raducea.matei2005@gmail.com" />
         <ContactItem icon={github} text="my github repositories" link="https://github.com/Jupyyter?tab=repositories" />
       </main>
