@@ -4,7 +4,7 @@ import mail from "../public/imgs/mail.jpg"
 import github from "../public/imgs/github.jpg"
 
 
-const ContactItem = ({ icon, text, link }: { icon: StaticImageData, text: string, link?: string }) => (
+const ContactItem = ({ icon, text, link }: { icon: string, text: string, link?: string }) => (
   <div className="flex items-stretch mb-4">
     <div 
       className="flex-shrink-0 w-12 h-12 mr-4 relative" 
@@ -30,9 +30,9 @@ export default function Contact() {
     <div className="flex-grow flex items-center justify-center">
       <main className="text-center p-4">
         <h1 className="text-4xl font-bold mb-4">contacts</h1>
-        <ContactItem icon={phone} text="my phonee numberrr: 0765823655" />
-        <ContactItem icon={mail} text="my email: raducea.matei2005@gmail.com" />
-        <ContactItem icon={github} text="my github repositories" link="https://github.com/Jupyyter?tab=repositories" />
+        <ContactItem icon="../../public/imgs/phone.jpg" text="my phonee number: 0765823655" />
+        <ContactItem icon="../../public/imgs/mail.jpg" text="my email: raducea.matei2005@gmail.com" />
+        <ContactItem icon="../../public/imgs/github.jpg" text="my github repositories" link="https://github.com/Jupyyter?tab=repositories" />
       </main>
     </div>
   );
